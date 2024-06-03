@@ -1,0 +1,21 @@
+import random
+
+def generate_random_quote():
+    quotes = [
+        "The best way to predict the future is to invent it. - Alan Kay",
+        "Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll",
+        "The only way to do great work is to love what you do. - Steve Jobs",
+        "If you can dream it, you can achieve it. - Zig Ziglar",
+        "Your time is limited, so don’t waste it living someone else’s life. - Steve Jobs",
+        "You miss 100% of the shots you don’t take. - Wayne Gretzky",
+        "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer",
+        "Hardships often prepare ordinary people for an extraordinary destiny. - C.S. Lewis",
+        "Believe you can and you're halfway there. - Theodore Roosevelt",
+        "Act as if what you do makes a difference. It does. - William James"
+    ]
+    return random.choice(quotes)
+
+if name == "main":
+    print("Random Quote Generator")
+    print("----------------------")
+    print(generate_random_quote())
